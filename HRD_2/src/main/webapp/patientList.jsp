@@ -26,7 +26,7 @@ ResultSet rs = stmt.executeQuery(sql);
 <body>
 <%@ include file="topmenu.jsp" %>
 <section>
-<h2>환자조회</h2>
+<h2>∙ 환자조회 ∙</h2>
 <div class="table">
 	<table width="600px">
 		<tr>

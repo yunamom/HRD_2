@@ -6,6 +6,7 @@
 }
 body{
 	font-family:gulim;
+	font-size:1.2em;
 	color:#454545;
 	text-align:center;
 }
@@ -24,10 +25,10 @@ nav ul{
 	color:#f1f1f1;
 }
 nav ul li{
-	font-size:1.2em;
+	font-size:1em;
 	list-style:none; /* li 앞에 표시를 제거한다. */
 	float:left; 
-	padding:0 15px;
+	padding:0 10px;
 }
 a{
 	text-decoration:none;
@@ -46,7 +47,7 @@ section{
 	background-color:#e1effa;
 }
 h2{
-	padding:2em;
+	padding:1.6em;
 }
 .table{
 	display:flex;
