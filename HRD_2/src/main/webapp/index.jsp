@@ -10,9 +10,8 @@
 <body>
 <%@ include file="topmenu.jsp" %>
 <section>
-<div class="table">
+
 <h2>과정평가형 자격 CBQ</h2>
-</div>
 
 <ul>
 <li>국가직무능력표준 으로 설계된 교육 훈련과정을 충실히 이수한 후,내부 외부 평가를 거쳐 일정 합격 기준을 충족하는 교육 훈련생에게 국가기술자격을 부여하는 제도</li>

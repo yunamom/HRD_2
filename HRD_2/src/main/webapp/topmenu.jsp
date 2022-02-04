@@ -13,11 +13,11 @@
 </header>
 <nav>
 	<ul>
-		<li><a>∙환자조회</a></li>
-		<li><a>∙검사결과입력</a></li>
-		<li><a>∙검사결과조회</a></li>
-		<li><a>∙지역별검사건수</a></li>
-		<li><a>∙홈으로</a></li>	
+		<li><a href="patientList.jsp">∙환자조회</a></li>
+		<li><a href="resultWrite.jsp">∙검사결과입력</a></li>
+		<li><a href="resultList.jsp">∙검사결과조회</a></li>
+		<li><a href="resultStatus.jsp">∙지역별검사건수</a></li>
+		<li><a href="index.jsp">∙홈으로</a></li>	
 	</ul>
 </nav>
 
