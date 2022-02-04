@@ -32,7 +32,7 @@ ResultSet rs = stmt.executeQuery(sql);
 <body>
 <%@ include file="topmenu.jsp" %>
 <section>
-<h2>검사결과조회</h2>
+<h2>∙ 검사결과조회 ∙</h2>
 <div class="table">
 	<table width="700px">
 		<tr>
