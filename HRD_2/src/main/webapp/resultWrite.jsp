@@ -13,6 +13,11 @@ td{
 </style>
 </head>
 <script>
+	function fn_reset(){
+		alert("정보를 지우고 처음부터 다시 입력합니다!");
+		location="resultWrite.jsp";
+		document.frm.p_no.focus();
+	}
 	function fn_submit(){
 		var f = document.frm
 		var check = [f.p_no,f.t_code,f.t_sdate,f.t_status,f.t_ldate,f.t_result];
