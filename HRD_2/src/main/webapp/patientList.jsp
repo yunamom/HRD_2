@@ -12,7 +12,11 @@ String sql = " SELECT ";
        sql+= " substr(p_birth,7,8),'일')p_birth, ";
        sql+= " if(p_gender='F','여','남')p_gender, ";
        sql+= " CONCAT(p_tel1,'-',p_tel2,'-',p_tel3)p_tel, ";
-       sql+= " if(p_city=10,'서울',if('20','경기',if('30','강원','대구'))) p_city ";
+       sql+= " (CASE p_city ";
+       sql+= " WHEN '10' THEN '서울' ";
+       sql+= " WHEN '20' THEN '경기' ";
+       sql+= " WHEN '30' THEN '강원' ";
+       sql+= " WHEN '40' THEN '대구' END )p_city ";
        sql+= " FROM tbl_patient_202004";
 ResultSet rs = stmt.executeQuery(sql);
 %>
